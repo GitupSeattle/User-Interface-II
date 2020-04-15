@@ -54,14 +54,29 @@
 
 .paragraph {
     text-align: center;
-}
-
-.contact {
-    Background-color: Grey;
-    height: 200px;
+    margin: auto;
+    width: 100px;
+    line-height: 20px;
     
 }
 
-contactme a{
+.paragraph p {
+padding-right: 150px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    Background-color: Grey;
+    height: 200px;
+   
+}
+
+.contactme  {
 align-items: center;
+font: white;
+border: black;
+color: black;
+text-decoration: none;
+background-color: white;
 }

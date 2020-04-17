@@ -149,10 +149,65 @@ height: 5rem;
 }
 
 @media(max-width: 800px) {
+.middlesection img {
+        display: none;
+    }
+/* Deletes the middle Img  */
 
+.Title h1 {
+    padding-bottom: 5%;
+    
+    }
+/* Adds more padding to the top text */
+
+.Intro h1{
+    display:none;
+    }
+/* Deletes the Intro text */
+
+.pictures {
+   display: flex;
+   }
+
+.pictures img {
+    height: 100%;
+    width: 100%;
+    padding-right: 5%;
+}
+/* Changes pictures height */
+
+.pictures #picture1, #picture2 {
+    border: solid red;
+    display: none;
+    }   
+    /* Deletes 2 pictures */
+
+.contact {
+  height: 5rem;  
+    }
+/* Decreases the contact bar */
 }
 
 
 @media(max-width: 500px) {
+    .navbar a {
+        display: flex;
+        flex-direction: column;
+    }
+/* Makes the nav go from horizontal to vertical. */
+
+.pictures #picture3 {
+    display: none;
+    }
+/* Remove another picture */
+
+.Title h1 {
+    font-size: 2rem;
+    }
+/* Decrese font size for Jason Vranish */
+
+.paragraph p {
+    padding-right: 0rem;
+}
 
 }
